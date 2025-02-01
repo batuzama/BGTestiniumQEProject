@@ -1,0 +1,231 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1094milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1094"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52027"}
+{"logLevel":"info","message":"Listening on port:52027"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.confirmIfElementNotFound' and 'testinium.batuhan.steps.StepImplementation.confirmIfElementNotFound'"}
+{"logLevel":"debug","message":"Found {} elementinin olmadigi dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.clearAndSendKeys' and 'testinium.batuhan.steps.StepImplementation.clearAndSendKeys'"}
+{"logLevel":"debug","message":"Found {} elementini bul, temizle ve {} degeri girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.waitForElementAndClick' and 'testinium.batuhan.steps.StepImplementation.waitForElementAndClick'"}
+{"logLevel":"debug","message":"Found {} elementini bekle ve sonra tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyIfKeyElementValueIsNotNegative' and 'testinium.batuhan.steps.StepImplementation.verifyIfKeyElementValueIsNotNegative'"}
+{"logLevel":"debug","message":"Found {} elementinin {} attribute degerinin negatif olmadigi dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyElementValueIsNotNegative' and 'testinium.batuhan.steps.StepImplementation.verifyElementValueIsNotNegative'"}
+{"logLevel":"debug","message":"Found {} elementinin degerinin sifirdan kucuk olamayacagi dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyElementText' and 'testinium.batuhan.steps.StepImplementation.verifyElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin text iceriginin {} bilgisine esit oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.waitBySeconds' and 'testinium.batuhan.steps.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifySelectedDropdownOptionWithSavedData' and 'testinium.batuhan.steps.StepImplementation.verifySelectedDropdownOptionWithSavedData'"}
+{"logLevel":"debug","message":"Found {} dropdowninda hafizaya kaydedilen Account name bilgisini iceren secenegin secili oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyIfKeyElementDoNotHaveAttribute' and 'testinium.batuhan.steps.StepImplementation.verifyIfKeyElementDoNotHaveAttribute'"}
+{"logLevel":"debug","message":"Found {} elementinin {} attribute alaninin olmadigi dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.logDefaultSelectedOption' and 'testinium.batuhan.steps.StepImplementation.logDefaultSelectedOption'"}
+{"logLevel":"debug","message":"Found {} dropdowninda varsayilan olarak secili bir secenek oldugu dogrulanir ve secili olan secenek loglanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyDifferenceBetweenPreviousAndCurrentValue' and 'testinium.batuhan.steps.StepImplementation.verifyDifferenceBetweenPreviousAndCurrentValue'"}
+{"logLevel":"debug","message":"Found {} elementinin degerinin hafizada tutulan onceki degeri ile farkinin {} kadar oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.sendKeyToElementBACKSPACE' and 'testinium.batuhan.steps.StepImplementation.sendKeyToElementBACKSPACE'"}
+{"logLevel":"debug","message":"Found {} elementine BACKSPACE keyi yolla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyUrlContainsText' and 'testinium.batuhan.steps.StepImplementation.verifyUrlContainsText'"}
+{"logLevel":"debug","message":"Found Mevcut URL {} bilgisini icerdigi dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.confirmIfElementsFoundAndShowElementCount' and 'testinium.batuhan.steps.StepImplementation.confirmIfElementsFoundAndShowElementCount'"}
+{"logLevel":"debug","message":"Found {} elementlerinin oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.confirmIfTempDataEqualsElementText' and 'testinium.batuhan.steps.StepImplementation.confirmIfTempDataEqualsElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin text iceriginin bellege kaydedilen deger ile ayni oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.waitUntilElementIsClickable' and 'testinium.batuhan.steps.StepImplementation.waitUntilElementIsClickable'"}
+{"logLevel":"debug","message":"Found {} elementi tiklanabilir olana kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.logElementText' and 'testinium.batuhan.steps.StepImplementation.logElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin text bilgisini logla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.updateTempDataFormatAndIncrease' and 'testinium.batuhan.steps.StepImplementation.updateTempDataFormatAndIncrease'"}
+{"logLevel":"debug","message":"Found Hafizaya kaydedilen degerin formatini double deger olacak sekilde guncelle {} kadar arttir ve kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyElementIsVisible' and 'testinium.batuhan.steps.StepImplementation.verifyElementIsVisible'"}
+{"logLevel":"debug","message":"Found {} elementinin gorunur oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifySelectedDropdownOptionWithText' and 'testinium.batuhan.steps.StepImplementation.verifySelectedDropdownOptionWithText'"}
+{"logLevel":"debug","message":"Found {} dropdowninda {} bilgisini iceren secenegin secili oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.verifyIfKeyElementAttributeEqualsExpectedText' and 'testinium.batuhan.steps.StepImplementation.verifyIfKeyElementAttributeEqualsExpectedText'"}
+{"logLevel":"debug","message":"Found {} elementinin {} attribute iceriginin {} oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.clickToElementWithJavaScript' and 'testinium.batuhan.steps.StepImplementation.clickToElementWithJavaScript'"}
+{"logLevel":"debug","message":"Found {} elementine javascript ile tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.clearElement' and 'testinium.batuhan.steps.StepImplementation.clearElement'"}
+{"logLevel":"debug","message":"Found {} elementini bul ve temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.dropDownSelectWithText' and 'testinium.batuhan.steps.StepImplementation.dropDownSelectWithText'"}
+{"logLevel":"debug","message":"Found {} drop down menusunden text icerigi {} olan secenek secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.getTextElementAndSave' and 'testinium.batuhan.steps.StepImplementation.getTextElementAndSave'"}
+{"logLevel":"debug","message":"Found {} elementinin text bilgisini al ve hafizaya kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'testinium.batuhan.steps.StepImplementation.clearAndSendSavedData' and 'testinium.batuhan.steps.StepImplementation.clearAndSendSavedData'"}
+{"logLevel":"debug","message":"Found {} elementini bul, temizle ve kaydedilen degeri yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} drop down menusunden text icerigi {} olan secenek secilir : public void dropDownSelectWithText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} dropdowninda varsayilan olarak secili bir secenek oldugu dogrulanir ve secili olan secenek loglanir : public void logDefaultSelectedOption(String key)"}
+{"logLevel":"debug","message":"\tMevcut URL {} bilgisini icerdigi dogrulanir : public void verifyUrlContainsText(String expectedUrl)"}
+{"logLevel":"debug","message":"\t{} elementinin {} attribute iceriginin {} oldugu dogrulanir : public void verifyIfKeyElementAttributeEqualsExpectedText(String key, String attribute, String expectedStr)"}
+{"logLevel":"debug","message":"\t{} elementine javascript ile tikla : public void clickToElementWithJavaScript(String key)"}
+{"logLevel":"debug","message":"\t{} elementini bul, temizle ve kaydedilen degeri yaz : public void clearAndSendSavedData(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} attribute alaninin olmadigi dogrulanir : public void verifyIfKeyElementDoNotHaveAttribute(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} dropdowninda {} bilgisini iceren secenegin secili oldugu dogrulanir : public void verifySelectedDropdownOptionWithText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementinin text bilgisini al ve hafizaya kaydet : public void getTextElementAndSave(String key)"}
+{"logLevel":"debug","message":"\t{} elementini bul ve temizle : public void clearElement(String key)"}
+{"logLevel":"debug","message":"\tHafizaya kaydedilen degerin formatini double deger olacak sekilde guncelle {} kadar arttir ve kaydet : public void updateTempDataFormatAndIncrease(double deger)"}
+{"logLevel":"debug","message":"\t{} elementinin gorunur oldugu dogrulanir : public void verifyElementIsVisible(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin degerinin hafizada tutulan onceki degeri ile farkinin {} kadar oldugu dogrulanir : public void verifyDifferenceBetweenPreviousAndCurrentValue(String key, double fark)"}
+{"logLevel":"debug","message":"\t{} elementinin text bilgisini logla : public void logElementText(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin olmadigi dogrulanir : public void confirmIfElementNotFound(String key)"}
+{"logLevel":"debug","message":"\t{} elementlerinin oldugu dogrulanir : public void confirmIfElementsFoundAndShowElementCount(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin degerinin sifirdan kucuk olamayacagi dogrulanir : public void verifyElementValueIsNotNegative(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} attribute degerinin negatif olmadigi dogrulanir : public void verifyIfKeyElementValueIsNotNegative(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} elementini bekle ve sonra tikla : public void waitForElementAndClick(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text iceriginin {} bilgisine esit oldugu dogrulanir : public void verifyElementText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementinin text iceriginin bellege kaydedilen deger ile ayni oldugu dogrulanir : public void confirmIfTempDataEqualsElementText(String key)"}
+{"logLevel":"debug","message":"\t{} elementini bul, temizle ve {} degeri girilir : public void clearAndSendKeys(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementi tiklanabilir olana kadar bekle : public void waitUntilElementIsClickable(String key)"}
+{"logLevel":"debug","message":"\t{} elementine BACKSPACE keyi yolla : public void sendKeyToElementBACKSPACE(String key)"}
+{"logLevel":"debug","message":"\t{} dropdowninda hafizaya kaydedilen Account name bilgisini iceren secenegin secili oldugu dogrulanir : public void verifySelectedDropdownOptionWithSavedData(String key)"}
+[37m01-02-2025 00:34:34 [BaseTest:103]
+INFO  setUp - ************************************  BeforeScenario  ************************************
+
+[m[37m01-02-2025 00:34:34 [BaseTest:104]
+INFO  setUp - Local cihazda chrome browserda test basliyor...
+
+[mŞub 01, 2025 12:34:34 ÖÖ org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 45217
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 45217.
+[1738359276.273][WARNING]: This version of ChromeDriver has not been tested with Chrome version 132.
+Şub 01, 2025 12:34:36 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Mevcut URL {} bilgisini icerdigi dogrulanir' using 'class testinium.batuhan.steps.StepImplementation.verifyUrlContainsText"}
+[37m01-02-2025 00:34:37 [StepImplementation:178]
+INFO  verifyUrlContainsText - Mevcut URL beklenen 'https://catchylabs-webclient.testinium.com' bilgisini iceriyor
+
+[m[37m01-02-2025 00:34:37 [StepImplementation:179]
+INFO  verifyUrlContainsText - Mevcut URL: 'https://catchylabs-webclient.testinium.com/'
+
+[m{"logLevel":"debug","message":"Executing '{} elementinin gorunur oldugu dogrulanir' using 'class testinium.batuhan.steps.StepImplementation.verifyElementIsVisible"}
+[37m01-02-2025 00:34:37 [StepImplementation:63]
+INFO  isElementVisible - 'LoginButton' elementi 0.049 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:37 [StepImplementation:80]
+INFO  verifyElementIsVisible - 'LoginButton' elementinin sayfada oldugu dogrulandi!
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bul, temizle ve {} degeri girilir' using 'class testinium.batuhan.steps.StepImplementation.clearAndSendKeys"}
+[37m01-02-2025 00:34:37 [StepImplementation:188]
+INFO  clearAndSendKeys - 'LoginUsernameInput' elementine 'batuhan.gengonul' degeri girildi
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bul, temizle ve {} degeri girilir' using 'class testinium.batuhan.steps.StepImplementation.clearAndSendKeys"}
+[37m01-02-2025 00:34:37 [StepImplementation:188]
+INFO  clearAndSendKeys - 'LoginPasswordInput' elementine 'bthn9807' degeri girildi
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bekle ve sonra tikla' using 'class testinium.batuhan.steps.StepImplementation.waitForElementAndClick"}
+[37m01-02-2025 00:34:37 [StepImplementation:63]
+INFO  isElementVisible - 'LoginButton' elementi 0.028 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:37 [StepImplementation:214]
+INFO  waitForElementAndClick - 'LoginButton' elementi tiklanabilir olana kadar beklendi!
+
+[m[37m01-02-2025 00:34:37 [StepImplementation:217]
+INFO  waitForElementAndClick - 'LoginButton' elementine tiklandi
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bekle ve sonra tikla' using 'class testinium.batuhan.steps.StepImplementation.waitForElementAndClick"}
+[37m01-02-2025 00:34:38 [StepImplementation:63]
+INFO  isElementVisible - 'OpenMoneyTransferButton' elementi 0.546 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:38 [StepImplementation:214]
+INFO  waitForElementAndClick - 'OpenMoneyTransferButton' elementi tiklanabilir olana kadar beklendi!
+
+[m[37m01-02-2025 00:34:38 [StepImplementation:217]
+INFO  waitForElementAndClick - 'OpenMoneyTransferButton' elementine tiklandi
+
+[m{"logLevel":"debug","message":"Executing '{} elementinin gorunur oldugu dogrulanir' using 'class testinium.batuhan.steps.StepImplementation.verifyElementIsVisible"}
+[37m01-02-2025 00:34:39 [StepImplementation:63]
+INFO  isElementVisible - 'MyAccountCard' elementi 0.527 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:39 [StepImplementation:80]
+INFO  verifyElementIsVisible - 'MyAccountCard' elementinin sayfada oldugu dogrulandi!
+
+[m{"logLevel":"debug","message":"Executing '{} elementi tiklanabilir olana kadar bekle' using 'class testinium.batuhan.steps.StepImplementation.waitUntilElementIsClickable"}
+[37m01-02-2025 00:34:39 [StepImplementation:450]
+INFO  waitUntilElementIsClickable - TransferMoneyButton elementi tiklanabilir hale geldi.
+
+[m{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class testinium.batuhan.steps.StepImplementation.waitBySeconds"}
+[37m01-02-2025 00:34:39 [StepImplementation:42]
+INFO  waitBySeconds - 2 saniye bekleniyor.
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bekle ve sonra tikla' using 'class testinium.batuhan.steps.StepImplementation.waitForElementAndClick"}
+[37m01-02-2025 00:34:41 [StepImplementation:63]
+INFO  isElementVisible - 'EditAccountButton' elementi 0.018 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:41 [StepImplementation:214]
+INFO  waitForElementAndClick - 'EditAccountButton' elementi tiklanabilir olana kadar beklendi!
+
+[m[37m01-02-2025 00:34:41 [StepImplementation:217]
+INFO  waitForElementAndClick - 'EditAccountButton' elementine tiklandi
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bul, temizle ve {} degeri girilir' using 'class testinium.batuhan.steps.StepImplementation.clearAndSendKeys"}
+[37m01-02-2025 00:34:41 [StepImplementation:188]
+INFO  clearAndSendKeys - 'EditAccountAccountNameInput' elementine 'batuhan.gengonul' degeri girildi
+
+[m{"logLevel":"debug","message":"Executing '{} elementini bekle ve sonra tikla' using 'class testinium.batuhan.steps.StepImplementation.waitForElementAndClick"}
+[37m01-02-2025 00:34:41 [StepImplementation:63]
+INFO  isElementVisible - 'EditAccountUpdateButton' elementi 0.028 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:41 [StepImplementation:214]
+INFO  waitForElementAndClick - 'EditAccountUpdateButton' elementi tiklanabilir olana kadar beklendi!
+
+[m[37m01-02-2025 00:34:41 [StepImplementation:217]
+INFO  waitForElementAndClick - 'EditAccountUpdateButton' elementine tiklandi
+
+[m{"logLevel":"debug","message":"Executing '{} elementinin gorunur oldugu dogrulanir' using 'class testinium.batuhan.steps.StepImplementation.verifyElementIsVisible"}
+[37m01-02-2025 00:34:41 [StepImplementation:63]
+INFO  isElementVisible - 'MyAccountCard' elementi 0.044 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:41 [StepImplementation:80]
+INFO  verifyElementIsVisible - 'MyAccountCard' elementinin sayfada oldugu dogrulandi!
+
+[m{"logLevel":"debug","message":"Executing '{} elementi tiklanabilir olana kadar bekle' using 'class testinium.batuhan.steps.StepImplementation.waitUntilElementIsClickable"}
+[37m01-02-2025 00:34:41 [StepImplementation:450]
+INFO  waitUntilElementIsClickable - TransferMoneyButton elementi tiklanabilir hale geldi.
+
+[m{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class testinium.batuhan.steps.StepImplementation.waitBySeconds"}
+[37m01-02-2025 00:34:41 [StepImplementation:42]
+INFO  waitBySeconds - 2 saniye bekleniyor.
+
+[m{"logLevel":"debug","message":"Executing '{} elementi tiklanabilir olana kadar bekle' using 'class testinium.batuhan.steps.StepImplementation.waitUntilElementIsClickable"}
+[37m01-02-2025 00:34:43 [StepImplementation:450]
+INFO  waitUntilElementIsClickable - TransferMoneyButton elementi tiklanabilir hale geldi.
+
+[m{"logLevel":"debug","message":"Executing '{} elementinin text iceriginin {} bilgisine esit oldugu dogrulanir' using 'class testinium.batuhan.steps.StepImplementation.verifyElementText"}
+[37m01-02-2025 00:34:44 [StepImplementation:63]
+INFO  isElementVisible - 'AccountNameInfo' elementi 0.017 saniye içinde görünür oldu (Timeout: 10 sn)
+
+[m[37m01-02-2025 00:34:44 [StepImplementation:80]
+INFO  verifyElementIsVisible - 'AccountNameInfo' elementinin sayfada oldugu dogrulandi!
+
+[m[37m01-02-2025 00:34:44 [StepImplementation:155]
+INFO  verifyElementText - 'AccountNameInfo' elementinin text icerigi dogrulandi. Beklenen: 'batuhan.gengonul', Mevcut: 'batuhan.gengonul'
+
+[m[37m01-02-2025 00:34:44 [BaseTest:127]
+INFO  tearDown - Driver kapatiliyor...
+
+[m[37m01-02-2025 00:34:44 [BaseTest:136]
+INFO  afterSpec - =========================================================================
+
+
+[m[37m01-02-2025 00:34:44 [BaseTest:142]
+INFO  afterSuite - *************************************************************************
+
+
+[m{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

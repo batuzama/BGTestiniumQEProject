@@ -1,0 +1,83 @@
+# Open Money Transfer butonuna tiklanir
+* "OpenMoneyTransferButton" elementini bekle ve sonra tikla
+
+# Hesabim ekraninin acildigi dogrulanir
+* "MyAccountCard" elementinin gorunur oldugu dogrulanir
+* "TransferMoneyButton" elementi tiklanabilir olana kadar bekle
+* "2" saniye bekle
+
+# Hesabim ekraninin acilmadigi dogrulanir
+* "MyAccountCard" elementinin olmadigi dogrulanir
+
+# Hesap kartinda bilgilerin goruntulendigi dogrulanir
+* "AccountNameInfo" elementinin gorunur oldugu dogrulanir
+* "AccountNameInfo" elementinin text bilgisini logla
+* "AccountTypeInfo" elementinin gorunur oldugu dogrulanir
+* "AccountTypeInfo" elementinin text bilgisini logla
+* "AccountCreationTimeInfo" elementinin gorunur oldugu dogrulanir
+* "AccountCreationTimeInfo" elementinin text bilgisini logla
+* "AccountAmountInfo" elementinin gorunur oldugu dogrulanir
+* "AccountAmountInfo" elementinin text bilgisini logla
+
+# Hesap ekraninda Transactions kartinin goruntulendigi dogrulanir
+* "AccountTransactionsCard" elementinin gorunur oldugu dogrulanir
+
+# Transactions kartinda hesap hareketlerinin goruntulendigi dogrulanir
+* "AccountTransactionInfo" elementlerinin oldugu dogrulanir
+
+# Transactions icinde Sender, Receiver, Time, Amount alanlarinin goruntulendigi dogrulanir
+* "TransactionsSonIslemeAitSenderBilgisi" elementinin gorunur oldugu dogrulanir
+* "TransactionsSonIslemeAitSenderBilgisi" elementinin text bilgisini logla
+* "TransactionsSonIslemeAitReceiverBilgisi" elementinin gorunur oldugu dogrulanir
+* "TransactionsSonIslemeAitReceiverBilgisi" elementinin text bilgisini logla
+* "TransactionsSonIslemeAitTimeBilgisi" elementinin gorunur oldugu dogrulanir
+* "TransactionsSonIslemeAitTimeBilgisi" elementinin text bilgisini logla
+* "TransactionsSonIslemeAitAmount" elementinin gorunur oldugu dogrulanir
+* "TransactionsSonIslemeAitAmount" elementinin text bilgisini logla
+
+# Transactions kartinda son hesap hareketine ait Amount bilgisinin <lastTransactionsAmount> oldugu dogrulanir
+* "TransactionsSonIslemeAitAmount" elementinin gorunur oldugu dogrulanir
+* "TransactionsSonIslemeAitAmount" elementinin text iceriginin <lastTransactionsAmount> bilgisine esit oldugu dogrulanir
+
+# Transfer Money butonunun goruntulendigi dogrulanir
+* "TransferMoneyButton" elementinin gorunur oldugu dogrulanir
+
+# Transfer Money butonuna tiklanir
+* "TransferMoneyButton" elementini bekle ve sonra tikla
+
+# Add Money butonunun goruntulendigi dogrulanir
+* "AddMoneyButton" elementinin gorunur oldugu dogrulanir
+
+# Add Money butonuna tiklanir
+* "AddMoneyButton" elementini bekle ve sonra tikla
+
+# Hesabi Duzenle butonunun goruntulendigi dogrulanir
+* "EditAccountButton" elementinin gorunur oldugu dogrulanir
+
+# Hesabi Duzenle butonuna tiklanir
+* "EditAccountButton" elementini bekle ve sonra tikla
+
+# Hesap adı bilgisi hafizaya kaydedilir
+* "AccountNameInfo" elementinin text bilgisini al ve hafizaya kaydet
+
+# Hesap Adı bilgisinin <accountName> oldugu dogrulanir
+* "TransferMoneyButton" elementi tiklanabilir olana kadar bekle
+* "AccountNameInfo" elementinin text iceriginin <accountName> bilgisine esit oldugu dogrulanir
+
+# Account Amount bilgisi hafizaya kaydedilir
+* "AccountAmountInfo" elementinin text bilgisini al ve hafizaya kaydet
+
+# Bakiyeden <sendAmount> tutarinin dogru sekilde dusuldugu dogrulanir
+* "TransactionsSonIslemeAitAmount" elementinin gorunur oldugu dogrulanir
+* "TransactionsSonIslemeAitAmount" elementinin text bilgisini logla
+* "AccountAmountInfo" elementinin gorunur oldugu dogrulanir
+* "AccountAmountInfo" elementinin degerinin hafizada tutulan onceki degeri ile farkinin <sendAmount> kadar oldugu dogrulanir
+
+# Account Amount bilgisi sifirdan kucuk olamayacagi dogrulanir
+* "AccountAmountInfo" elementinin degerinin sifirdan kucuk olamayacagi dogrulanir
+
+# Hafizaya kaydedilen Amount degerini <addMoneyArtis> arttir
+* Hafizaya kaydedilen degerin formatini double deger olacak sekilde guncelle <addMoneyArtis> kadar arttir ve kaydet
+
+# Add Money isleminde girilen degerin bakiyeye eklendigi dogrulanir
+* "AccountAmountInfo" elementinin text iceriginin bellege kaydedilen deger ile ayni oldugu dogrulanir
