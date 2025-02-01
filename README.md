@@ -1,4 +1,4 @@
-# Test Otomasyon Projesi
+# Testinium QE Test Otomasyon Projesi
 
 Bu proje, **Selenium** ve **Gauge (BDD)** kullanılarak geliştirilmiş bir test otomasyon projesidir. **Java** programlama diliyle yazılmış olup, **Maven** proje yapısı kullanılmıştır. 
 Testinium QE projesi için yapılmıştır.
