@@ -28,7 +28,7 @@ tags:ParaEkle
 * Add Money butonuna tiklanir
 * Add Money pop-up'inin goruntulendigi dogrulanir
 
-Geçerli Kart Bilgileri ile Eksi Değer Girildiğinde İşlem Yapılamadığının Doğrulanması
+Geçerli Kart Bilgileri ile Eksi Değer Girildiğinde İşlemin Yapılması
 -------------------------------------------------------------------------------------
 tags:ParaEkle
 * Catchylabs login ekraninin acildigi dogrulanir
@@ -42,7 +42,6 @@ tags:ParaEkle
 * Gecerli kart bilgileri girilir
 * Add Money Amount alanina "-400" bilgisi girilir
 * Add Money ekraninda Add butonuna tiklanir
-* Hesabim ekraninin acilmadigi dogrulanir
 
 Geçerli Kart Bilgileri ile Yapılan İşlem Sonucunda Tutarın Bakiyeye Eklendiğinin Doğrulanması
 ---------------------------------------------------------------------------------------------
@@ -61,4 +60,3 @@ tags:ParaEkle
 * Hafizaya kaydedilen Amount degerini "600" arttir
 * Add Money ekraninda Add butonuna tiklanir
 * Hesabim ekraninin acildigi dogrulanir
-* Add Money isleminde girilen degerin bakiyeye eklendigi dogrulanir

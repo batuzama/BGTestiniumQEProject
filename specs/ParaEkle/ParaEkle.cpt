@@ -54,6 +54,6 @@
 
 # Gecerli kart bilgileri girilir
 * "AddMoneyCardNumberInput" elementini bul, temizle ve "1234123412341234" degeri girilir
-* "AddMoneyCardHolderInput" elementini bul, temizle ve "Otomasyon" degeri girilir
+* "AddMoneyCardHolderInput" elementini bul, temizle ve "Test Test" degeri girilir
 * "AddMoneyExpiryDateInput" elementini bul, temizle ve "1026" degeri girilir
 * "AddMoneyCvvInput" elementini bul, temizle ve "110" degeri girilir
